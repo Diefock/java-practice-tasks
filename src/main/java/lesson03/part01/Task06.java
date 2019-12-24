@@ -49,7 +49,27 @@ import java.io.InputStreamReader;
 public class Task06 {
 
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        int num=10;
+        int sum = 0;
+        int kol=0;
+        while (sum>=0) {
+            String numSt = reader.readLine();
+            int num1 = Integer.parseInt(numSt);
+            num=num1;
+            if (num==-1){
+                break;
+            }
+            sum=sum+num;
+            kol=kol+1;
+        }
+
+        System.out.println(sum);
+        System.out.println(kol);
+        float res=(float)sum/kol;
+        System.out.println(res);
+
     }
 
 }

@@ -14,7 +14,14 @@ package lesson03.part01;
 
 public class Task20 {
 
-  //напишите тут ваш код
+  public static class Cat{
+    public static int catCount;
+
+    public Cat(int catCount){
+      this.catCount = catCount+1;
+    }
+
+  }
 
   public static void main(String[] args) {
 

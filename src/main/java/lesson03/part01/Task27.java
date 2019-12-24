@@ -11,13 +11,13 @@ package lesson03.part01;
  */
 
 public class Task27 {
-
+  public String name;
   public static class Cat {
   }
-
+  public String name;
   public static class Dog {
   }
-
+  public String name;
   public static void main(String[] args) {
 
   }

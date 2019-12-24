@@ -28,7 +28,24 @@ public class Task08 {
     }
 
     public static class Friend {
-        //напишите тут ваш код
+        private String name;
+        private int age;
+        private char sex;
+
+        public void initialize1(String name){
+            this.name=name;
+        }
+
+        public void initialize2(String name, int age){
+            this.name=name;
+            this.age=age;
+        }
+
+        public void initialize3(String name, int age,char sex){
+            this.name=name;
+            this.age=age;
+            this.sex=sex;
+        }
     }
 
 }

@@ -25,7 +25,23 @@ public class Task13 {
     }
 
     public static class Friend {
-        //напишите тут ваш код
+        private String name;
+        private int age;
+        private char sex;
+
+        public void constructor1 (String name){
+            this.name=name;
+        }
+        public void constructor2 (String name,int age){
+            this.name=name;
+            this.age=age;
+        }
+        public void constructor3 (String name,int age,char sex){
+            this.name=name;
+            this.age=age;
+            this.sex=sex;
+        }
+
     }
 
 }
